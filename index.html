@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rutto portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin=" anonymous"></script>
+    </head>
+    <body>
+        <div id="
+        Header">
+           <div class="container">
+            <nav>
+                <img src="images/20230917_101903.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#Header">Home</a></li>
+                    <li> <a href="#About">About</a></li>
+                    <li> <a href="#Services">Services</a></li>
+                    <li> <a href="#Portfolio">Portfolio</a></li>
+                    <li> <a href="#Contact">Contact</a></li> <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"> Student</div>
+            <h1> hello, am<span> Klein Rutto </span><br>from Nandi</h1>
+           </div> 
+        </div>
+        <!-- ......about.......... -->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/1691823181752.jpg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> Am klein Rutto, 18 years old studies in moringa school.am passionate about computers in generaly.
+                            am also a huge fan of pubg mobile online games.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+                            <p class="tab-links "onclick="opentab('Experience)">Experience</p> 
+                             <p class="tab-links "onclick="opentab('Education')">Education</p>  
+                        </div>
+                        <div>
+                            <div class="tab-contents active-tab "id="Skills">
+                                <ul>
+                                    <li> <span>html</span><br>learning html </li>  
+                                    <li> <span>css</span><br>learning css </li>  
+                                    <li> <span>javascript</span><br>learning javascript</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents"id="Experience">
+                                <ul>
+                                    <li> <span>2020</span><br>code camp </li>  
+                                    <li> <span>2021</span><br>vasscript </li>  
+                                    <li> <span>2022-2023</span><br>moringa</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents"id="Education">
+                                <ul>
+                                    <li> <span>2018</span><br>primary</li>  
+                                    <li> <span>2022</span><br>secondary </li>  
+                                    <li> <span>javascript</span><br>institution moringa</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- ......services.......... -->
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">my services</h1> 
+                <div class="services-list">
+                    <div>
+                      
+                         <h2> Learn html</h2>
+                         <p>Html essensials
+                            Html coding
+                         </p>
+                         <a href="#">Learn more</a>
+                        </div>
+
+                        <div>
+                            
+                            <h2> Learn css</h2>
+                            <p>Css essensials
+                               Css coding
+                            </p>
+                            <a href="#">Learn more</a>
+                           </div>
+
+                           <div>
+                          
+                            <h2> Learn javascript</h2>
+                            <p>Javasscript essensials
+                               Javascript coding
+                            </p>
+                            <a href="#">Learn more</a>
+                           </div>
+      
+
+                </div>
+            </div>
+        </div>
+         <!-- ......portfolio.......... -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1> 
+            <div class="work-list"></div>
+            <div class="work">
+                <img src="images/1691408269189.jpg">
+                <div class="layer">
+                    <h3> social media app</h3>
+                    <p>The app connects you to people around the globe .Download itfrom play store</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+            <img src="images/1694848787775.jpg">
+            <div class="layer">
+                <h3> game app</h3>
+                <p>The app connects you to people around the globe .Download itfrom play store</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+     <!-- ......contact.......... -->
+     <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fas fa-paper-plane"></i>contact@klein.rutto@student.moringaschool.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0734557225</p>
+                    <div class="social-icons">
+                        <a href="ttps://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="ttps://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        <a href="ttps://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="ttps://linkedin.com"><i class="fab fa-linkedin"></i></a>
+
+
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyrigth">
+            <p>copyright by klein</p>
+        </div>
+     </div>
+       <script>
+
+        var tablinks = document.getElementsByClassName(tab-links);
+        var tabcontents = document.getElementsByClassName(tab-contents);
+
+        function opentab (tabname){
+            for(tablink of tablinks){
+                tablink.Classlist.remove("active-link ");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.Classlist.remove("active-tab ");
+            }
+            event.currentTarget.Claslist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab")
+        }
+       </script>
+       <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+       </script>
+    </body>
+
+</html>
